@@ -18,4 +18,3 @@ class NeuralNet(nn.Module):
         x = self.relu(self.layer1(x))
         x = self.relu(self.layer2(x))
         return self.layer3(x)
-
